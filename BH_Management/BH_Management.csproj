@@ -1,0 +1,1280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F6E4992-D873-44C1-90ED-51725A86B72F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BH_Management</RootNamespace>
+    <AssemblyName>BH_Management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="dataQLNTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataQLNTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fCSVC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSVC.Designer.cs">
+      <DependentUpon>fCSVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fdichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fdichVu.Designer.cs">
+      <DependentUpon>fdichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fHoaDon.Designer.cs">
+      <DependentUpon>fHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fKhachHang.Designer.cs">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTongKet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTongKet.Designer.cs">
+      <DependentUpon>fTongKet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPhong.Designer.cs">
+      <DependentUpon>fPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTC.Designer.cs">
+      <DependentUpon>fTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hd.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet34.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet35.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet36.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet37.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet38.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet39.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet40.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet42.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet43.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet81.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet81.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNTDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNTDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="fCSVC.resx">
+      <DependentUpon>fCSVC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fdichVu.resx">
+      <DependentUpon>fdichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fHoaDon.resx">
+      <DependentUpon>fHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fKhachHang.resx">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTongKet.resx">
+      <DependentUpon>fTongKet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPhong.resx">
+      <DependentUpon>fPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTC.resx">
+      <DependentUpon>fTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportHD.rdlc" />
+    <None Include="dataQLNTDataSet.xsc">
+      <DependentUpon>dataQLNTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataQLNTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataQLNTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataQLNTDataSet.xss">
+      <DependentUpon>dataQLNTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BH_Management.DAO.DataProvider.datasource" />
+    <None Include="Properties\DataSources\BH_Management.dataQLNTDataSetTableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.dataQLNTDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.dataQLNTDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\BH_Management.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet10TableAdapters.DanhSPTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet10TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet10TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet11TableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet11TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet11TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet12TableAdapters.HoaDonTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet12TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet12TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet13TableAdapters.ChiTietDVTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet13TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet13TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet14TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet14TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet14TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet14TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet15TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet15TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet15TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet15TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet16TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet16TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet16TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet16TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet17TableAdapters.DanhSPTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet17TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet17TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet18TableAdapters.KhachThueTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet18TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet18TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet19TableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet19TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet19TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet1TableAdapters.DanhSPTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet1TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet1TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet20TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet20TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet20TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet21TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet21TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet21TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet22TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet22TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet22TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet23TableAdapters.KhachThueTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet23TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet23TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet24TableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet24TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet24TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet25TableAdapters.ChiTietDVTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet25TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet25TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet26TableAdapters.HoaDonTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet26TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet26TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet27TableAdapters.KhachThueTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet27TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet27TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet28TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet28TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet28TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet29TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet29TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet29TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet2TableAdapters.HoaDonTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet2TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet2TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet30TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet30TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet30TableAdapters.ThuePhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet31TableAdapters.ChiTietDVTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet31TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet31TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet32TableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet32TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet32TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet3TableAdapters.HoaDonTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet3TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet3TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet4TableAdapters.HoaDonTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet4TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet4TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet5TableAdapters.ChiTietDVTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet5TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet5TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet6TableAdapters.KhachThueTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet6TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet6TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet7TableAdapters.CSVCTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet7TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet7TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet8TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet8TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet8TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet9TableAdapters.PhongTableAdapter.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet9TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSet9TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSetTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSetTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\BH_Management.QLNTDataSetTableAdapters.TaiKhoanTableAdapter.datasource" />
+    <None Include="Properties\DataSources\dataQLNTDataSet.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\dataQLNTDataSet.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\dataQLNTDataSet.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\dataQLNTDataSet.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\dataQLNTDataSet.datasource" />
+    <None Include="Properties\DataSources\DTO.csvcDTO.datasource" />
+    <None Include="Properties\DataSources\DTO.dvDTO.datasource" />
+    <None Include="Properties\DataSources\DTO.hdDTO.datasource" />
+    <None Include="Properties\DataSources\DTO.khachDTO.datasource" />
+    <None Include="Properties\DataSources\DTO.PhongDTO.datasource" />
+    <None Include="Properties\DataSources\DTO.TaiKhoanDTO.datasource" />
+    <None Include="Properties\DataSources\fCSVC.datasource" />
+    <None Include="Properties\DataSources\fcthd.datasource" />
+    <None Include="Properties\DataSources\fdichVu.datasource" />
+    <None Include="Properties\DataSources\fHoaDon.datasource" />
+    <None Include="Properties\DataSources\fKhachHang.datasource" />
+    <None Include="Properties\DataSources\fPhong.datasource" />
+    <None Include="Properties\DataSources\fTC.datasource" />
+    <None Include="Properties\DataSources\fTongKet.datasource" />
+    <None Include="Properties\DataSources\Login.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet.TaiKhoanDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet.TaiKhoanRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet.TaiKhoanRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet.TaiKhoanRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet1.DanhSPDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet1.DanhSPRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet1.DanhSPRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet1.DanhSPRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet1.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet10.DanhSPDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet10.DanhSPRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet10.DanhSPRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet10.DanhSPRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet10.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet11.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet11.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet11.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet11.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet11.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet12.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet12.HoaDonDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet12.HoaDonRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet12.HoaDonRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet12.HoaDonRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet13.ChiTietDVDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet13.ChiTietDVRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet13.ChiTietDVRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet13.ChiTietDVRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet13.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet14.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet15.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet16.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet17.DanhSPDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet17.DanhSPRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet17.DanhSPRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet17.DanhSPRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet17.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet18.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet18.KhachThueDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet18.KhachThueRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet18.KhachThueRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet18.KhachThueRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet19.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet19.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet19.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet19.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet19.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet2.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet2.HoaDonDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet2.HoaDonRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet2.HoaDonRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet2.HoaDonRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet20.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet20.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet20.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet20.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet20.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet21.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet21.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet21.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet21.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet21.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet22.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet22.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet22.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet22.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet22.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet23.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet23.KhachThueDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet23.KhachThueRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet23.KhachThueRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet23.KhachThueRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet24.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet24.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet24.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet24.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet24.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet25.ChiTietDVDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet25.ChiTietDVRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet25.ChiTietDVRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet25.ChiTietDVRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet25.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet26.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet26.HoaDonDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet26.HoaDonRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet26.HoaDonRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet26.HoaDonRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet27.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet27.KhachThueDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet27.KhachThueRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet27.KhachThueRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet27.KhachThueRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet28.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet28.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet28.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet28.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet28.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet29.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet29.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet29.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet29.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet29.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet3.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet3.HoaDonDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet3.HoaDonRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet3.HoaDonRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet3.HoaDonRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet30.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet30.ThuePhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet30.ThuePhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet30.ThuePhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet30.ThuePhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet31.ChiTietDVDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet31.ChiTietDVRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet31.ChiTietDVRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet31.ChiTietDVRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet31.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet32.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet32.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet32.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet32.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet32.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet4.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet4.HoaDonDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet4.HoaDonRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet4.HoaDonRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet4.HoaDonRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet5.ChiTietDVDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet5.ChiTietDVRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet5.ChiTietDVRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet5.ChiTietDVRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet5.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet6.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet6.KhachThueDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet6.KhachThueRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet6.KhachThueRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet6.KhachThueRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet7.CSVCDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet7.CSVCRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet7.CSVCRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet7.CSVCRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet7.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet8.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet8.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet8.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet8.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet8.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet9.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet9.PhongDataTable.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet9.PhongRow.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet9.PhongRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\QLNTDataSet9.PhongRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SqlServerTypes.Utilities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLNTDataSet.xsc">
+      <DependentUpon>QLNTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet.xss">
+      <DependentUpon>QLNTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet1.xsc">
+      <DependentUpon>QLNTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet1.xss">
+      <DependentUpon>QLNTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet10.xsc">
+      <DependentUpon>QLNTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet10.xss">
+      <DependentUpon>QLNTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet11.xsc">
+      <DependentUpon>QLNTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet11.xss">
+      <DependentUpon>QLNTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet12.xsc">
+      <DependentUpon>QLNTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet12.xss">
+      <DependentUpon>QLNTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet13.xsc">
+      <DependentUpon>QLNTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet13.xss">
+      <DependentUpon>QLNTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet14.xsc">
+      <DependentUpon>QLNTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet14.xss">
+      <DependentUpon>QLNTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet15.xsc">
+      <DependentUpon>QLNTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet15.xss">
+      <DependentUpon>QLNTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet16.xsc">
+      <DependentUpon>QLNTDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet16.xss">
+      <DependentUpon>QLNTDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet17.xsc">
+      <DependentUpon>QLNTDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet17.xss">
+      <DependentUpon>QLNTDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet18.xsc">
+      <DependentUpon>QLNTDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet18.xss">
+      <DependentUpon>QLNTDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet19.xsc">
+      <DependentUpon>QLNTDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet19.xss">
+      <DependentUpon>QLNTDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet2.xsc">
+      <DependentUpon>QLNTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet2.xss">
+      <DependentUpon>QLNTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet20.xsc">
+      <DependentUpon>QLNTDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet20.xss">
+      <DependentUpon>QLNTDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet21.xsc">
+      <DependentUpon>QLNTDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet21.xss">
+      <DependentUpon>QLNTDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet22.xsc">
+      <DependentUpon>QLNTDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet22.xss">
+      <DependentUpon>QLNTDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet23.xsc">
+      <DependentUpon>QLNTDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet23.xss">
+      <DependentUpon>QLNTDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet24.xsc">
+      <DependentUpon>QLNTDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet24.xss">
+      <DependentUpon>QLNTDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet25.xsc">
+      <DependentUpon>QLNTDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet25.xss">
+      <DependentUpon>QLNTDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet26.xsc">
+      <DependentUpon>QLNTDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet26.xss">
+      <DependentUpon>QLNTDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet27.xsc">
+      <DependentUpon>QLNTDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet27.xss">
+      <DependentUpon>QLNTDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet28.xsc">
+      <DependentUpon>QLNTDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet28.xss">
+      <DependentUpon>QLNTDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet29.xsc">
+      <DependentUpon>QLNTDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet29.xss">
+      <DependentUpon>QLNTDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet3.xsc">
+      <DependentUpon>QLNTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet3.xss">
+      <DependentUpon>QLNTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet30.xsc">
+      <DependentUpon>QLNTDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet30.xss">
+      <DependentUpon>QLNTDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet31.xsc">
+      <DependentUpon>QLNTDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet31.xss">
+      <DependentUpon>QLNTDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet32.xsc">
+      <DependentUpon>QLNTDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet32.xss">
+      <DependentUpon>QLNTDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet33.xsc">
+      <DependentUpon>QLNTDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet33.xss">
+      <DependentUpon>QLNTDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet34.xsc">
+      <DependentUpon>QLNTDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet34.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet34.xss">
+      <DependentUpon>QLNTDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet35.xsc">
+      <DependentUpon>QLNTDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet35.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet35.xss">
+      <DependentUpon>QLNTDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet36.xsc">
+      <DependentUpon>QLNTDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet36.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet36.xss">
+      <DependentUpon>QLNTDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet37.xsc">
+      <DependentUpon>QLNTDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet37.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet37.xss">
+      <DependentUpon>QLNTDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet38.xsc">
+      <DependentUpon>QLNTDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet38.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet38.xss">
+      <DependentUpon>QLNTDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet39.xsc">
+      <DependentUpon>QLNTDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet39.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet39.xss">
+      <DependentUpon>QLNTDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet4.xsc">
+      <DependentUpon>QLNTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet4.xss">
+      <DependentUpon>QLNTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet40.xsc">
+      <DependentUpon>QLNTDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet40.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet40.xss">
+      <DependentUpon>QLNTDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet41.xsc">
+      <DependentUpon>QLNTDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet41.xss">
+      <DependentUpon>QLNTDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet42.xsc">
+      <DependentUpon>QLNTDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet42.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet42.xss">
+      <DependentUpon>QLNTDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet43.xsc">
+      <DependentUpon>QLNTDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet43.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet43.xss">
+      <DependentUpon>QLNTDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet5.xsc">
+      <DependentUpon>QLNTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet5.xss">
+      <DependentUpon>QLNTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet6.xsc">
+      <DependentUpon>QLNTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet6.xss">
+      <DependentUpon>QLNTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet7.xsc">
+      <DependentUpon>QLNTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet7.xss">
+      <DependentUpon>QLNTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet81.xsc">
+      <DependentUpon>QLNTDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet81.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet81.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet81.xss">
+      <DependentUpon>QLNTDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet9.xsc">
+      <DependentUpon>QLNTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="QLNTDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNTDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNTDataSet9.xss">
+      <DependentUpon>QLNTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\One Team.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-moon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24-hours1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\migration1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technical-support1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\One Team1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4f010af7-332c-4c24-8041-5cd5e94d06e4}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{f5845b30-be81-4ede-8498-31375a0c5770}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,18 @@
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DTO\obj\Debug\DTO.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\bin\Debug\DTO.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\bin\Debug\DTO.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\obj\Debug\DTO.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\DTO\obj\Debug\DTO.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\DTO\obj\Debug\DTO.pdb

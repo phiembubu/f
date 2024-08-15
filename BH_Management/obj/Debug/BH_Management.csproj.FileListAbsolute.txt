@@ -1,0 +1,213 @@
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe.config
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.pdb
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\Guna.UI2.dll
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.AssemblyReference.cache
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Login.resources
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Properties.Resources.resources
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.GenerateResource.cache
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.CoreCompileInputs.cache
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Manag.2E5F5676.Up2Date
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.exe
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.pdb
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fTC.resources
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fPhong.resources
+C:\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fChiTietPhong.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe.config
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.pdb
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\Guna.UI2.dll
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.AssemblyReference.cache
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fHoaDon.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fTongKet.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fPhong.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fTC.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Login.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Properties.Resources.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.GenerateResource.cache
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.CoreCompileInputs.cache
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Manag.2E5F5676.Up2Date
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.exe
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.pdb
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fKhachHang.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fCSVC.resources
+D:\Tài_Liệu_HK2\UML\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fdichVu.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe.config
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.exe
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BH_Management.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fCSVC.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fdichVu.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fHoaDon.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fKhachHang.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fTongKet.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fPhong.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.fTC.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Login.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.Properties.Resources.resources
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Manag.2E5F5676.Up2Date
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.exe
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\obj\Debug\BH_Management.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BLL.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\DTO.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\BLL.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\DTO.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\DAL.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\BH_Management\bin\Debug\DAL.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\BH_Management.exe.config
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\BH_Management.exe
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\BH_Management.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\BLL.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\DTO.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Guna.UI2.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\DAL.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\BLL.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\DTO.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\DAL.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.AssemblyReference.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fCSVC.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fdichVu.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fHoaDon.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fKhachHang.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fTongKet.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fPhong.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.fTC.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.Login.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.Properties.Resources.resources
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.GenerateResource.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.CoreCompileInputs.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Manag.2E5F5676.Up2Date
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.exe
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\obj\Debug\BH_Management.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\EnvDTE.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\stdole.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\BH_Management.exe.config
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\BH_Management.exe
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\BH_Management.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\BLL.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\DAL.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\EnvDTE.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\stdole.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\BLL.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\DAL.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fCSVC.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fdichVu.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fHoaDon.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fKhachHang.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fTongKet.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fPhong.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.fTC.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.Login.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.Properties.Resources.resources
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Manag.2E5F5676.Up2Date
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.exe
+C:\Users\Admin\Documents\BH_Management\BH_Management\BH_Management\obj\Debug\BH_Management.pdb

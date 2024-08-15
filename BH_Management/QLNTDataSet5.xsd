@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLNTDataSet5" targetNamespace="http://tempuri.org/QLNTDataSet5.xsd" xmlns:mstns="http://tempuri.org/QLNTDataSet5.xsd" xmlns="http://tempuri.org/QLNTDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLNTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLNTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BH_Management.Properties.Settings.GlobalReference.Default.QLNTConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ChiTietDVTableAdapter" GeneratorDataComponentClassName="ChiTietDVTableAdapter" Name="ChiTietDV" UserDataComponentName="ChiTietDVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLNTConnectionString (Settings)" DbObjectName="QLNT.dbo.ChiTietDV" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT tenPhong, chiSoDienCu, chiSoDienMoi, tienDien, tienNuoc, tienWifi, soNguoiSuDung FROM dbo.ChiTietDV</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tenPhong" DataSetColumn="tenPhong" />
+              <Mapping SourceColumn="chiSoDienCu" DataSetColumn="chiSoDienCu" />
+              <Mapping SourceColumn="chiSoDienMoi" DataSetColumn="chiSoDienMoi" />
+              <Mapping SourceColumn="tienDien" DataSetColumn="tienDien" />
+              <Mapping SourceColumn="tienNuoc" DataSetColumn="tienNuoc" />
+              <Mapping SourceColumn="tienWifi" DataSetColumn="tienWifi" />
+              <Mapping SourceColumn="soNguoiSuDung" DataSetColumn="soNguoiSuDung" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLNTDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="QLNTDataSet5" msprop:Generator_DataSetName="QLNTDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ChiTietDV" msprop:Generator_RowEvHandlerName="ChiTietDVRowChangeEventHandler" msprop:Generator_RowDeletedName="ChiTietDVRowDeleted" msprop:Generator_RowDeletingName="ChiTietDVRowDeleting" msprop:Generator_RowEvArgName="ChiTietDVRowChangeEvent" msprop:Generator_TablePropName="ChiTietDV" msprop:Generator_RowChangedName="ChiTietDVRowChanged" msprop:Generator_RowChangingName="ChiTietDVRowChanging" msprop:Generator_TableClassName="ChiTietDVDataTable" msprop:Generator_RowClassName="ChiTietDVRow" msprop:Generator_TableVarName="tableChiTietDV" msprop:Generator_UserTableName="ChiTietDV">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tenPhong" msprop:Generator_ColumnPropNameInRow="tenPhong" msprop:Generator_ColumnPropNameInTable="tenPhongColumn" msprop:Generator_ColumnVarNameInTable="columntenPhong" msprop:Generator_UserColumnName="tenPhong" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="chiSoDienCu" msprop:Generator_ColumnPropNameInRow="chiSoDienCu" msprop:Generator_ColumnPropNameInTable="chiSoDienCuColumn" msprop:Generator_ColumnVarNameInTable="columnchiSoDienCu" msprop:Generator_UserColumnName="chiSoDienCu" type="xs:int" minOccurs="0" />
+              <xs:element name="chiSoDienMoi" msprop:Generator_ColumnPropNameInRow="chiSoDienMoi" msprop:Generator_ColumnPropNameInTable="chiSoDienMoiColumn" msprop:Generator_ColumnVarNameInTable="columnchiSoDienMoi" msprop:Generator_UserColumnName="chiSoDienMoi" type="xs:int" minOccurs="0" />
+              <xs:element name="tienDien" msprop:Generator_ColumnPropNameInRow="tienDien" msprop:Generator_ColumnPropNameInTable="tienDienColumn" msprop:Generator_ColumnVarNameInTable="columntienDien" msprop:Generator_UserColumnName="tienDien" type="xs:int" minOccurs="0" />
+              <xs:element name="tienNuoc" msprop:Generator_ColumnPropNameInRow="tienNuoc" msprop:Generator_ColumnPropNameInTable="tienNuocColumn" msprop:Generator_ColumnVarNameInTable="columntienNuoc" msprop:Generator_UserColumnName="tienNuoc" type="xs:int" minOccurs="0" />
+              <xs:element name="tienWifi" msprop:Generator_ColumnPropNameInRow="tienWifi" msprop:Generator_ColumnPropNameInTable="tienWifiColumn" msprop:Generator_ColumnVarNameInTable="columntienWifi" msprop:Generator_UserColumnName="tienWifi" type="xs:int" minOccurs="0" />
+              <xs:element name="soNguoiSuDung" msprop:Generator_ColumnPropNameInRow="soNguoiSuDung" msprop:Generator_ColumnPropNameInTable="soNguoiSuDungColumn" msprop:Generator_ColumnVarNameInTable="columnsoNguoiSuDung" msprop:Generator_UserColumnName="soNguoiSuDung" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

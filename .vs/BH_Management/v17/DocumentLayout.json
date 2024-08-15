@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|c:\\users\\admin\\documents\\bh_management\\bh_management\\bh_management\\fphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|c:\\users\\admin\\documents\\bh_management\\bh_management\\bh_management\\fkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:BH_Management\\fHoaDon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\ftc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\ftc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\fcsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\fcsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\bh_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:bh_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6E4992-D873-44C1-90ED-51725A86B72F}|BH_Management\\BH_Management.csproj|solutionrelative:BH_Management\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92AF612C-EC63-41C2-8561-C53CA576145C}|DAL\\DAL.csproj|C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\DAL\\TaiKhoanDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92AF612C-EC63-41C2-8561-C53CA576145C}|DAL\\DAL.csproj|solutionrelative:DAL\\TaiKhoanDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 320,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fPhong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fPhong.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fPhong.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fPhong.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:43:29.961Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fKhachHang.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fKhachHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fKhachHang.cs",
+              "RelativeToolTip": "BH_Management\\fKhachHang.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAtwDoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T03:28:06.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fKhachHang.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fKhachHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fKhachHang.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:20:51.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fPhong.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fPhong.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fPhong.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fPhong.cs",
+              "RelativeToolTip": "BH_Management\\fPhong.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAjwEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:55:21.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fHoaDon.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fHoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fHoaDon.cs",
+              "RelativeToolTip": "BH_Management\\fHoaDon.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwEEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:45:26.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fdichVu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fdichVu.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fdichVu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fdichVu.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fdichVu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:52:01.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fdichVu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fdichVu.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fdichVu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fdichVu.cs",
+              "RelativeToolTip": "BH_Management\\fdichVu.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAmwGsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:18:57.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fCSVC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fCSVC.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fCSVC.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fCSVC.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fCSVC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:45:19.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Login.cs",
+              "RelativeDocumentMoniker": "BH_Management\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Login.cs [Design]",
+              "RelativeToolTip": "BH_Management\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:53:57.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fHoaDon.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fHoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fHoaDon.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:20:12.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "fTC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fTC.cs",
+              "RelativeDocumentMoniker": "BH_Management\\fTC.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\fTC.cs [Design]",
+              "RelativeToolTip": "BH_Management\\fTC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:26:05.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Program.cs",
+              "RelativeDocumentMoniker": "BH_Management\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Program.cs",
+              "RelativeToolTip": "BH_Management\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:41:18.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Login.cs",
+              "RelativeDocumentMoniker": "BH_Management\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\BH_Management\\Login.cs",
+              "RelativeToolTip": "BH_Management\\Login.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:39:29.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaiKhoanDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\DAL\\TaiKhoanDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoanDAL.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BH_Management\\BH_Management\\DAL\\TaiKhoanDAL.cs",
+              "RelativeToolTip": "DAL\\TaiKhoanDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:38:34.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

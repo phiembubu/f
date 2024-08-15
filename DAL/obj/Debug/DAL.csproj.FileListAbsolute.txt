@@ -1,0 +1,27 @@
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\bin\Debug\DTO.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\bin\Debug\DTO.pdb
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\Downloads\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Phần mềm quản lý nhà trọ Tân Hoàng\Hướng dẫn\BH_Management\DAL\obj\Debug\DAL.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\bin\Debug\DAL.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\bin\Debug\DAL.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\bin\Debug\DTO.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\bin\Debug\DTO.pdb
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\obj\Debug\DAL.dll
+D:\Kì II 2023\Quản trị dự án\BH_Management\DAL\obj\Debug\DAL.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\Documents\BH_Management\BH_Management\DAL\obj\Debug\DAL.pdb
